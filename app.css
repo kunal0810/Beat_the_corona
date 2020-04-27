@@ -1,0 +1,85 @@
+body{
+    background-image: url('background.jpeg');
+    background-size: cover;
+    color: lime;
+}
+h1 , marquee{
+    color: yellow;
+}
+marquee{
+    font-size: large;
+    font-weight: bold;
+}
+
+.soap{
+     cursor: url('soap.jpg'),auto;
+}
+
+.dettol{
+    cursor: url('dettol.jpeg'),auto;
+}
+
+.mask{
+    cursor: url('mask.jpeg'),auto; 
+}
+
+#headline{
+    text-align: center;
+    color: rgb(200, 255, 0);
+    font-size: 60;
+    margin-top: 20;
+    font-weight: 900;
+}
+
+.square{
+    border-style: solid;
+    border-color: lightgreen;
+}
+
+
+.ssquare{
+    height: 250;
+    width: 250;
+}
+.msquare{
+    height: 200;
+    width: 200;
+}
+.lsquare{
+    height: 150;
+    width: 150;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    width : 600;
+}
+
+.mole{
+    background-image: url('virus.jpeg');
+    background-size: cover;
+}
+
+.split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+}
+
+.left {
+    top: 10;
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+      margin-top: 80;
+    right: 0;   
+  }
